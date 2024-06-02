@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.kotak-nav{
+    background-color: blue;
+    height: 100px;
+}
+
+.kotak-konten{
+    background-color: coral;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 200px;
+    min-width: 200px;
+}
+
+#box1{
+    flex-grow: 4;
+    /* flex: 4 1 20%; */
+    flex-basis: 40%;
+    background-color: yellow;
+}
+
+#box2{
+    flex-grow: 6;
+    /* flex: 8 1 80%; */
+    flex-basis: 60%;
+    background-color: orange;
+}
+
+.form-input{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.input-grup{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+.input-grup label{
+    /* width: 30%; */
+    /* flex-grow: 2; */
+    flex-basis: 30%;
+}
+
+.input-grup input{
+    /* width: 70%; */
+    /* flex-grow: 4; */
+    flex-basis: 70%;
+}
+
+.input-grup textarea{
+    flex-basis: 70%;
+    height: 75px;
+    padding: 5px;
+}
+
+#wrap-radio{
+    flex-basis: 70%;
+}
+
+.input-grup button{
+    flex-basis: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
