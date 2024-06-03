@@ -24,11 +24,12 @@ body{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    /* min-width: 800px; */
 }
 
 .box{
     height: 200px;
-    min-width: 200px;
+    min-width: 400px;
 }
 
 #box1{
@@ -54,6 +55,7 @@ body{
 .input-grup{
     display: flex;
     flex-direction: row;
+    padding: 5px;
     /* justify-content: center; */
 }
 
@@ -67,6 +69,7 @@ body{
     /* width: 70%; */
     /* flex-grow: 4; */
     flex-basis: 70%;
+    padding: 5px;
 }
 
 .input-grup textarea{
@@ -81,6 +84,7 @@ body{
 
 .input-grup button{
     flex-basis: 100%;
+    padding: 5px;
 }
 
 table, th, td {
